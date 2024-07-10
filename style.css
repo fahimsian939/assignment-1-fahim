@@ -254,19 +254,51 @@ justify-content: space-between;
     border-radius: 7px;
     padding: 13px 15px;
     cursor: pointer;
+    margin-bottom: 200px;
     
 }
 .box{
     background-color: #rgba(13, 19, 33, 0.4);
-    
+    border: none;
     font-size: 14px;
     font-weight: 400;
-    border: none;
     border-radius: 5px;
     padding: 13px 13px;
     
 }
 
 .submit{
-    margin-top: 40px;
+    /* margin-top: 50px; */
+    border: none;
+}
+
+.input-parent{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suggest{
+    padding: 8px 50px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.btn-sb{
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    padding: 13px 15px;
+    cursor: pointer;
+    
+}
+
+.bairer-color{
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 20px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+    padding: 10px 10px;
 }
